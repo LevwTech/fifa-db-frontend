@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+html {
+  background: url("https://images8.alphacoders.com/115/1156900.jpg") no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.welcome {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+  text-shadow: 5px 5px 2px black;
+  margin-bottom: 30px;
+  caret-color: rgba(0, 0, 0, 0);
+}
+.buttons {
+  width: 30%;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: auto;
+}
+.links {
+  line-height: 30px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+  height: 30px;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: black;
+  transition-duration: 200ms;
+  border: 3px solid black;
+  caret-color: rgba(0, 0, 0, 0);
+}
+
+.links:hover {
+  background-color: black;
+  color: lightgreen;
+  transform: scale(110%);
+}
