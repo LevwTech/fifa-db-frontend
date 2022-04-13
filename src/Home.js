@@ -15,11 +15,11 @@ function Home() {
         <Link className="links" to="/players">
           Players
         </Link>
-        <Link className="links" to="/clubs">
-          Clubs Stats and Players
-        </Link>
         <Link className="links" to="/stats">
           Player Stats Filter
+        </Link>
+        <Link className="links" to="/clubs">
+          Clubs Stats and Players
         </Link>
       </div>
     </React.Fragment>
