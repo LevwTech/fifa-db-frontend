@@ -30,9 +30,7 @@ function Clubs() {
       <div className="item">
         {showClubs && (
           <div>
-            <div className="welcomeplayer">
-              {clubs[0].ClubName} Stats from Players Average
-            </div>
+            <div className="welcomeplayer">Club Stats from Players Average</div>
 
             <div className="innerItem">
               <div>{clubs[0].clubPace} PAC</div>
