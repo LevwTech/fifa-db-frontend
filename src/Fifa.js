@@ -58,7 +58,7 @@ function Fifa() {
         {clubs.map((club) => (
           <div className="innerItem">
             <div>{club.ClubName}</div>
-            <div>Club ID{club.CID}</div>
+            <div>Club ID {club.CID}</div>
             <div> Establish Date {club.EstablishDate}</div>
             <div>{club.Street}</div>
             <div> ZIP {club.ZIP}</div>
