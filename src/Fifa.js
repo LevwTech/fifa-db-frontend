@@ -47,8 +47,8 @@ function Fifa() {
         {managers.map((manager) => (
           <div className="innerItem">
             <div>{manager.ManagerName}</div>
-            <div>Manager ID{manager.MID}</div>
-            <div>Club ID{manager.CID}</div>
+            <div>Manager ID {manager.MID}</div>
+            <div>Club ID {manager.CID}</div>
           </div>
         ))}
       </div>

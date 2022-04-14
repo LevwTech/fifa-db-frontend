@@ -53,7 +53,7 @@ function Create() {
         <label htmlFor="zip">ZIP</label>
         <input id="zip" required type="number" name="zip"></input>
 
-        <label htmlFor="adress">Adress</label>
+        <label htmlFor="adress">Address</label>
         <input id="adress" required type="text" name="adress"></input>
         <label htmlFor="city">City</label>
         <input id="city" required type="text" name="city"></input>
