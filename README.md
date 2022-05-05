@@ -27,6 +27,7 @@ Each League holds the league that each club participates in with a name and a ra
 
 
 ER Model
+![image](https://user-images.githubusercontent.com/69399787/166915517-86e08244-b860-400f-9a99-b56242229717.png)
 
 
 
