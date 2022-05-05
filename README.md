@@ -39,36 +39,7 @@ ER Model
 
 
 Relational Schema
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-SQL Create Statements, Triggers & Assertions
-
-Implemented using MYSQL
-
-
- 
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/69399787/166915548-85e2538e-5e4d-44c8-8548-1103e04e33a3.png)
 
 
 
@@ -79,41 +50,12 @@ Implemented using MYSQL
 
 Triggers
 
-This Trigger makes sure that if any of the player stats (pace, dribbling, shooting, passing, physical defending) are values between 0 and 100 so if less than 0 is inserted the value is set to 0 and if more than 100 the value is set to 100
+Trigger makes sure that if any of the player stats (pace, dribbling, shooting, passing, physical defending) are values between 0 and 100 so if less than 0 is inserted the value is set to 0 and if more than 100 the value is set to 100
 
  
 
 Assertions
-This assertion makes sure the number of tuples in country table cannot exceed 195. As this is the number of countries in the world.
-
-
-
-
-
-
-Tables Filled
-
-Country
-  
-
-Leagues
- 
-
-Clubs
- 
-
-Managers
- 
-
-Players
-
-
-
-
-
-
-
-
+ Assertion makes sure the number of tuples in country table cannot exceed 195. As this is the number of countries in the world.
 
 
 
@@ -138,9 +80,13 @@ https://github.com/LevwTech/fifa-db-backend/blob/main/index.js
 Frontend
 We used React, Javascript, Html and Css to create a user interface to talk to the backend via rest api and insert to the database via forms from client side and display the data obtained from select queries. We display players inform of nice fifa cards.
 
- 
+ ![image](https://user-images.githubusercontent.com/69399787/166915766-1b249878-c1a5-4df6-b5be-e89c6618741e.png)
+![image](https://user-images.githubusercontent.com/69399787/166915777-456b49fd-d8ff-47da-90d8-1c62b2c16f00.png)
+![image](https://user-images.githubusercontent.com/69399787/166915793-c92a0885-d0fb-4cb7-a730-10b5b134349d.png)
+
  
 We must follow domain, key, null, referential & entity integrity rules while creating the tables. Otherwise, it will result in an error from the database/backend.
+![image](https://user-images.githubusercontent.com/69399787/166915811-56fdf8fb-f5e3-45c6-af41-4bb9f1b5f50f.png)
 
 
 
