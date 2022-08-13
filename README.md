@@ -1,5 +1,3 @@
-Frontend of Fifa football management system for database project
-
 # Frontend
 
  Used React, Javascript, Html and Css to create a user interface to talk to the backend via rest api and insert to the database via forms from client side and display the data obtained from select queries. We display players inform of nice fifa cards.
@@ -91,20 +89,3 @@ Insert INTO country (CountryName, Continent) - to create a country.
 We then created then created two complex queries that use aggregate functions and nested queries.
 The first complex query takes from the request all the maximum and minimum stats and returns all the players within that range of stats and ther count.
 The second complex query takes the club ID from the endpoint and selects all players in that club and most importantly, it also returns Average stats of all players as the Club Stats.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
