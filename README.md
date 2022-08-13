@@ -1,4 +1,4 @@
-# Frontend
+Frontend of Fifa football management system for database project
 
  Used React, Javascript, Html and Css to create a user interface to talk to the backend via rest api and insert to the database via forms from client side and display the data obtained from select queries. We display players inform of nice fifa cards.
 ![image](https://user-images.githubusercontent.com/69399787/166916582-86c48ca0-3de3-4bd3-ac76-84e427726cb7.png)
